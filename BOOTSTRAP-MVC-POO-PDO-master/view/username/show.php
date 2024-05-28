@@ -1,6 +1,6 @@
 <?php
-    require_once("c://xampp/htdocs/proyecto/view/head/head.php");
-    require_once("c://xampp/htdocs/proyecto/controller/usernameController.php");
+    require_once("../view/head/head.php");
+    require_once("../controller/usernameController.php");
     $obj = new usernameController();
     $date = $obj->show($_GET['id']);
 ?>

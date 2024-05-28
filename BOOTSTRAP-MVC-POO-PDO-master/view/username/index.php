@@ -1,11 +1,11 @@
 <?php
-    require_once("c://xampp/htdocs/proyecto/view/head/head.php");
-    require_once("c://xampp/htdocs/proyecto/controller/usernameController.php");
+    require_once("../head/head.php");
+    require_once("../../controller/usernameController.php");
     $obj = new usernameController();
     $rows = $obj->index();
 ?>
 <div class="mb-3">
-    <a href="/proyecto/view/username/create.php" class="btn btn-primary">Agregar nuevo usuario</a>
+    <a href="../username/create.php" class="btn btn-primary">Agregar nuevo usuario</a>
 </div>
 <table class="table">
     <thead>
